@@ -12,10 +12,9 @@ const BackgroundImage = () => {
         backgroundImage: `url(${workshop})`,
         backgroundSize: "cover",
         filter: "blur(5px)",
-        display: "block",
-        margin: "-10px -10px -10px -10px",
-        height: "calc(100% + 20px)",
-        width: "calc(100% + 20px)",
+        transform: "scale(1.1)",
+        height: "100%",
+        width: "100%",
       }}
     />
   );
