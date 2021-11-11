@@ -9,7 +9,7 @@ const BackgroundImage = () => {
         left: 0,
         right: 0,
         zIndex: -1,
-        backgroundImage: `url(${workshop}`,
+        backgroundImage: `url(${workshop})`,
         backgroundSize: "cover",
         filter: "blur(5px)",
         display: "block",

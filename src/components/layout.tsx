@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from "react";
 import { PageProps } from "gatsby";
 import MyHelmet from "./my-helmet";
-import "bootstrap/dist/css/bootstrap.min.css";
+import "../css/bootstrap.scss";
 import "../css/fonts.scss";
 import BackgroundImage from "./background-image";
 import { Scrollbars } from "react-custom-scrollbars";
