@@ -1,6 +1,6 @@
 import React from "react";
-import engineer from "../images/000-EngineerMonkey.png";
 import cx from "classnames";
+import { StaticImage } from "gatsby-plugin-image";
 
 const Index = () => {
   return (
@@ -9,7 +9,13 @@ const Index = () => {
         doombubbles' BTD6 Mods and More
       </h1>
       <div className={"w-25 h-auto m-auto"}>
-        <img alt={"Engineer"} src={engineer} className={"w-100 h-auto"} />
+        <StaticImage
+          src={"../images/000-EngineerMonkey.png"}
+          alt={"Engineer"}
+          className={"w-100 h-auto"}
+          loading={"eager"}
+          placeholder={"none"}
+        />
         <h1
           className={cx(
             "luckiest-guy",

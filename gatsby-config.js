@@ -3,6 +3,7 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "BTD6 Mods Website",
   },
+  pathPrefix: "/btd6-mods-website",
   plugins: [
     `gatsby-plugin-react-helmet`,
     "gatsby-plugin-sass",
