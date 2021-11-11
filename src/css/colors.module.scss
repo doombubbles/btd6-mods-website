@@ -1,0 +1,25 @@
+$primary: #c4f1ff;
+$secondary: #1e6bff;
+// $success: #d8afff;
+$success: #00cc00;
+$info: #c524ff;
+$warning: #9936ff;
+$light: #6fc6ff;
+$dark: #183cb2;
+$danger: #cc0000;
+$gray: rgba(80, 104, 128, 0.125);
+
+$body-color: #122562;
+
+:export {
+  primary: $primary;
+  secondary: $secondary;
+  success: $success;
+  info: $info;
+  warning: $warning;
+  light: $light;
+  dark: $dark;
+  danger: $danger;
+  bodyColor: $body-color;
+  gray: $gray;
+}

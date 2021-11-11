@@ -4,6 +4,7 @@ module.exports = {
     title: "BTD6 Mods Website",
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     "gatsby-plugin-sass",
     "gatsby-plugin-image",
     "gatsby-transformer-remark",
